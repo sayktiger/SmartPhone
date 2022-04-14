@@ -1,14 +1,31 @@
+
+//reboot css
 @import "libs/normalize";
 
+
+//variable
 @import "variable/variable";
 @import "variable/mixin";
+@import "variable/title";
 
+//fonst
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 
 *{
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
+.container{
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+//blocks
+@import "blocks/header";
 
 
+//media
 @import "media/media";

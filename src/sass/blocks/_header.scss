@@ -1,0 +1,48 @@
+.header{
+    padding: 19px 0;
+    &__list{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+
+    &__item{
+        
+        
+        &_title{
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 700;
+            color: $header-color;
+        }
+
+        &_phone, &_email{
+            margin-bottom: 2px;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 300;
+        } 
+    }
+    &_uk{
+        @include header-icons;
+        background-image: url("../icons/head/UK.png");
+    }
+
+    &_gr{
+        @include header-icons;
+        background-image: url("../icons/head/Germany.png");
+    }
+    &_es{
+        @include header-icons;
+        background-image: url("../icons/head/Esnonia.png");
+    }
+    &_ge{
+        @include header-icons;
+        background-image: url("../icons/head/English.png");
+    }
+    &_lu{
+        @include header-icons;
+        background-image: url("../icons/head/Luximburg.png");
+    }
+}
