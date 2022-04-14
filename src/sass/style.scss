@@ -1,6 +1,6 @@
 
 //reboot css
-@import "libs/normalize";
+@import "libs/bootstrap-reboot.min";
 
 
 //variable
@@ -16,15 +16,24 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
+ul{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: block;
     max-width: 1140px;
     margin: 0 auto;
 }
 
+.button{
+    display: block;
+}
+
 //blocks
 @import "blocks/header";
+@import "blocks/main";
+@import "blocks/service";
 
 
 //media

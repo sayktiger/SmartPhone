@@ -4,3 +4,29 @@
     background-size: 28px 21px;
     background-repeat: no-repeat;
 }
+@mixin service-bg{
+    background-size: 360px 255px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+@mixin service-title-bg{
+    background-size: 169px 100px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+
+@mixin button{
+    min-width: 241px;
+    min-height: 60px;
+    background-color: #00c2f0;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.07);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $f;
+    border:none;
+    border-radius: 5px;
+}
