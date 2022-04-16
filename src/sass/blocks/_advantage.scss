@@ -1,0 +1,41 @@
+.advantage{
+    padding: 80px 0;
+    &__title{
+        margin-bottom: 84px;
+    }
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__card{
+        position: relative;
+        max-width: 570px;
+        max-height: 355px;
+        &_img{
+            position: relative;
+        }
+        &_overlay{
+            width: 570px;
+            height: 156px;
+            background-color: rgba(0,0,0, .43);
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            z-index: 1;
+        }
+        &_descr{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            font-size: 23px;
+            line-height: 26px;
+            font-weight: 400;
+            color: $f;
+            text-align: center;
+            width: 370px;
+            z-index: 2;
+        }
+    }
+}
