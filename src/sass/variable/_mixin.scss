@@ -30,3 +30,12 @@
     border:none;
     border-radius: 5px;
 }
+
+@mixin footer-link{
+    font-size: 14px;
+    font-weight: 300;
+    a {
+        color: $f;
+    }
+
+}

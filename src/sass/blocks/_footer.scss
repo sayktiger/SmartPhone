@@ -1,0 +1,73 @@
+.footer{
+    background-color: #0082a1;
+    padding: 49px 0 40px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 44px;
+    }
+    &__title{
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        color: $f;
+    }
+    .company{
+        max-width: 377px;
+        &__img{
+            margin-top: 20px;
+        }
+        &__descr{
+            margin-top: 24px;
+            font-size: 14px;
+            font-weight: 300;
+            color: $f;
+        }
+    }
+
+    .module{
+        &__list{
+            list-style: none;
+            &_item{
+                @include footer-link;
+            }
+        }
+    }
+
+    .industry{
+        &__list{
+            list-style: none;
+            &_item{
+                @include footer-link;
+            }
+        }
+    }
+
+    .about{
+        &__list{
+            list-style: none;
+            &_item{
+                @include footer-link;
+            }
+        }
+    }
+
+    span {
+        width: 1171px;
+        height: 1px;
+        background-color: rgba(255, 255 , 255 , 0.3);
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 36px;
+        
+    }
+
+    .defence{
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: $f;
+        text-align: center;
+    }
+}
