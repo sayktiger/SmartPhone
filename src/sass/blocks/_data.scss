@@ -1,0 +1,43 @@
+.data{
+    padding: 79px 0 220px 0;
+    background: url("../img/bg_data.jpg") center center /cover no-repeat;
+    &__title{
+        margin-bottom: 128px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cloud{
+        text-align: right;
+        max-width: 483px;
+        &_title{
+            line-height: 22px;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: right;
+        }
+        &_descr{
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: $f;
+        }
+    }
+    &__server{
+        text-align: left;
+        max-width: 483px;
+        &_title{
+            line-height: 22px;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: left;
+        }
+        &_descr{
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: $f;
+        }
+    }
+}
