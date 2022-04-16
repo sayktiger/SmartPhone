@@ -1,0 +1,47 @@
+.desition{
+    padding: 79px 0 61px 0;
+    background: url("../img/bg_desition.jpg") center center /cover no-repeat;
+    &__title{
+        margin-bottom: 25px;
+    }
+    &__list{
+        display: flex;
+        min-width: 840px;
+        min-height: 65px;
+        list-style: none;
+        border: 1px solid $f;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 36px;
+    }
+    &__item{
+        position: relative;
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: $f;
+        transition: all 0.3s;
+        &:not(:last-child):before{
+            content: "";
+            position: absolute;
+            top: -50%;
+            right: -50px;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 49px;
+            background-color: #827e7b;
+        }
+        &:hover{
+            color: $blue-color;
+        }
+        
+    }
+    &__slider{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 947px;
+        max-height: 560px;
+    }
+}
